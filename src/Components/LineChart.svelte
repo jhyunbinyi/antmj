@@ -150,6 +150,10 @@
   });
 </script>
 
+<h1>
+Rookie Year PPG Comparison
+</h1>
+
 <div class="container">
   <svg id="chart"></svg>
 </div>
