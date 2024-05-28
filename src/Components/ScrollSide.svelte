@@ -25,13 +25,13 @@
   const target2event = {
     0: () => {
       // console.log('0' )
-      select("#chart1").style("background-image", "url('../src/images/timber.webp')");
+      select("#chart1").style("background-image", "url('/antmj/images/timber.svg')");
       select("#chart1").style("background-size", "cover");
       select("#chart1").style("background-position", "center");
       select("#chart2").style("background-color", "green");
     },
     1: () => {
-      select("#chart1").style("background-image", "url('../src/images/bulls.webp')");
+      select("#chart1").style("background-image", "url('/antmj/images/bulls.svg')");
       select("#chart1").style("background-size", "cover");
       select("#chart1").style("background-position", "center");
       select("#chart2").style("background-color", "green");

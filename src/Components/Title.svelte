@@ -1,8 +1,12 @@
+<script>
+  // No need to import SVG files here
+</script>
+
 <section id="intro">
   <div class="intro-container">
-    <img src="../src/images/Mjdunk.png" alt="Mj" class="intro-image" />
+    <img src="/antmj/images/mjdunk.svg" alt="Mj" class="intro-image" />
     <h1 id="intro-hed">Like Father, Like Son?</h1>
-    <img src="../src/images/antdunk.png" alt="Ant" class="intro-image" />
+    <img src="/antmj/images/antdunk.svg" alt="Ant" class="intro-image" />
   </div>
   <h1 class="intro-sub">Statistical Comparison of Anthony Edwards and Michael Jordan</h1>
   <h3 id="intro__date">
@@ -59,7 +63,7 @@
     margin-bottom: 0px;
     color: black;
     padding-bottom: 1rem;
-    font-family: var(--font-main);
+    font-family: var (--font-main);
   }
 
   /* mobile */

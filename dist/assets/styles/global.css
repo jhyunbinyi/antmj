@@ -1,13 +1,13 @@
-:root {
-  /* Fonts 
-  */
-  --font-main: "Verdana";
-  --font-heavy: "Arial";
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Candal&family=PT+Sans+Narrow:wght@400;700&family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
+:root {
+  /* Fonts */
+  --font-main: 'PT Sans Narrow', sans-serif;
+  --font-heavy: 'PT Sans Narrow', sans-serif;
 
   --black: #232f3e;
 
-  /* neutrals */
+  /* Neutrals */
   --darksquidink: #161e2d;
   --stone: #d4dada;
   --paper: #f1f3f3;
