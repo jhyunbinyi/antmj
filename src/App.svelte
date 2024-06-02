@@ -8,14 +8,15 @@
   import Conclusion from "./Components/Conclusion.svelte";
   import Resources from "./Components/Resources.svelte";
   import ScrollSide from "./Components/ScrollSide.svelte";
+  import Shotchart from "./Components/Shotchart.svelte";
 </script>
 
 <Meta />
 <Title />
 <Intro />
 <TextAndMathEquations />
-<ScrollSide />
 <LineChart />
-<ScrollCenter />
+<Shotchart />
+<ScrollSide />
 <Conclusion />
 <Resources />

@@ -150,8 +150,8 @@
   });
 </script>
 
-<h1>
-Rookie Year PPG Comparison
+<h1 style="text-align: center; margin-top: 60px;">
+  Rookie Year PPG Comparison
 </h1>
 
 <div class="container">
