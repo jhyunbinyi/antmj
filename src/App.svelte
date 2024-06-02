@@ -9,6 +9,7 @@
   import Resources from "./Components/Resources.svelte";
   import ScrollSide from "./Components/ScrollSide.svelte";
   import Shotchart from "./Components/Shotchart.svelte";
+  import Hexbins from "./Components/hexbins.svelte";
 </script>
 
 <Meta />
@@ -16,6 +17,7 @@
 <Intro />
 <TextAndMathEquations />
 <LineChart />
+<Hexbins />
 <Shotchart />
 <ScrollSide />
 <Conclusion />

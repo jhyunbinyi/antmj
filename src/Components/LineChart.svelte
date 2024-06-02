@@ -155,7 +155,8 @@
 </h1>
 
 <div class="container">
-  <svg id="chart"></svg>
+  <svg id="chart">
+  </svg>
 </div>
 
 <style>
