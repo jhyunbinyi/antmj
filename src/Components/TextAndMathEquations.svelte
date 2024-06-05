@@ -35,4 +35,7 @@ Still, before we decide if Ant can be considered a contender for the “next
 </p>
 
 <style>
+.body-header {
+  text-align: center;
+}
 </style>

@@ -14,10 +14,6 @@
       <span>(Michael Keller)</span>
     </p>
     <p class="resource-item">
-      <a class="on-end" href="https://katex.org/">KaTeX</a>
-      <span>(Emily Eisenberg & Sophie Alpert)</span>
-    </p>
-    <p class="resource-item">
       <a class="on-end" href="https://svelte.dev/">Svelte</a>
       <span>(Rich Harris)</span>
     </p>
@@ -25,9 +21,23 @@
 </section>
 
 <style>
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
   #resources {
     padding: 2rem 1rem;
-    background-color: var(--primary);
+    background: linear-gradient(270deg, #04052E, #540B0E);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
     color: white;
   }
 

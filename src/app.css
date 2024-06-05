@@ -1,11 +1,7 @@
-@font-face {
-  font-family: 'MyCustomFont';
-  src: url('/fonts/Greek-Freak.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
-
 body {
-  font-family: 'MyCustomFont', sans-serif;
+  background: url('./images/texture.jpeg') no-repeat center center fixed; /* Update the path if necessary */
+  background-size: cover; /* Make sure the background covers the entire viewport */
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: black; /* Adjust text color if necessary */
 }
-

@@ -18,4 +18,7 @@
   #conclusion {
     padding: 2rem 1rem;
   }
+  .body-header {
+  text-align: center;
+}
 </style>

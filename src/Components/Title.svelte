@@ -1,13 +1,7 @@
 <script>
-  // No need to import SVG files here
 </script>
 
 <section id="intro">
-  <div class="intro-container">
-    <img src="/antmj/images/mjump.png" alt="Mj" class="intro-image" />
-    <h1 id="intro-hed">Like Father, Like Son?</h1>
-    <img src="/antmj/images/antdrib.png" alt="Ant" class="intro-image" />
-  </div>
   <h1 class="intro-sub">Statistical Comparison of Anthony Edwards and Michael Jordan</h1>
   <h3 id="intro__date">
     <a href="https://www.linkedin.com/in/jonathan-yi-396b67294/" target="_blank">Jonathan Yi</a>
@@ -35,7 +29,7 @@
   }
 
   #intro-hed {
-    font-size: 4rem;
+    font-size: 4.2rem;
     margin-top: 5px;
     margin-bottom: 0;
     letter-spacing: 1.5px;
@@ -45,7 +39,7 @@
   }
 
   .intro-sub {
-    font-size: 1.4rem;
+    font-size: 2.3rem;
     color: var(--squid-ink);
     text-align: center;
     margin: 1rem;
