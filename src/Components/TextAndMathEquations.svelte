@@ -15,23 +15,7 @@
 </script>
 <h1 class="body-header">What makes two players similar?</h1>
 <p class="body-text">
-Following the 90s Bulls dynasty, many players were touted as the “next 
-Michael Jordan.” This title proved to be both a blessing and a curse for 
-many young talents. For every player like Kobe Bryant who could live up to
-the title of the “next Michael Jordan,” there were 50 more who couldn’t. 
-Still, before we decide if Ant can be considered a contender for the “next
- Michael Jordan,” we must first define what makes two players similar. For 
- this comparison, we will access a few major talking points. First, we will 
- start with basic stats. You can’t be the “next Michael Jordan” if you can’t 
- put up the same insane numbers night after night. Next, we will move on to 
- shot selection. Jordan was known for being a mid-range monster, shooting 
- iconic fade-aways and gravity-defying dunks. We will access MJ’s and Ant’s 
- shot selections and compare them to see their similarities. Finally, we have 
- intangible features like handshake and physicality. Michael Jordan was one of 
- the most athletic guards ever to play. If we want to say Ant is the “next Michael 
- Jordan,” he should be similar in athleticism. In the end, we hope to take these 
- three major factors and use them together to frame a compelling argument as to 
- why or why not Anthony Edwards is really the “next Michael Jordan.”
+The 1990s were a golden age for basketball. The league was expanding and in prime position to gain recognition worldwide. The Chicago Bulls, led by a dominant Michael Jordan, grasped this opportunity and created a dynasty, winning over six championships in nine years. After Jordan retired, many other young players were touted as the next Michael Jordan, and for every player like Kobe Bryant who could live up to this title, fifty more couldn't. To determine whether Anthony Edwards and Michael Jordan are truly similar, we must first define what makes two players similar. The problem here is that every player is unique. Players are an amalgamation of tons of characteristics. No two players are exactly the same. So, how are we going to compare MJ and Ant? For the sake of this project, we will look at these players as they are in-game, ignoring intangibles. That means that we have to access how these players are similar on the basketball court. To do this we will assess what kinds of shots these players take. Where do they like shooting from? Where on the court do they get most of their success? These are the questions we will first look to answer. After that we will access if their shots result in similar levels of scoring. These guys are known scorers, so do they score at the same level across similar stages of their careers? Through the combination of these questions we hope to answer the question of how similar Michael Jordan and Anthony Edwards really are.
 </p>
 
 <style>

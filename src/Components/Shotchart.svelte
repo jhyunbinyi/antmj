@@ -38,7 +38,6 @@
       .style("stroke", "black")
       .style("stroke-width", 2);
 
-    // center circle
     svg.append("circle")
       .attr("cx", xScale(0))
       .attr("cy", yScale(0))
@@ -47,7 +46,6 @@
       .style("stroke", "black")
       .style("stroke-width", 2);
 
-    // free throw circles
     svg.append("circle")
       .attr("cx", xScale(-280))
       .attr("cy", yScale(0))
@@ -276,11 +274,24 @@
     .on("mouseleave", mouseleave);
 }
 </script>
-
+<h2 id="text" class="center-text">Shot Chart</h2>
 <svg id="court" width={width} height={height}></svg>
 <div id="tooltip" class="tooltip"></div>
 
 <style>
+  .center-text {
+    text-align: center;
+    padding-top: 20px; /* Adjust this value to move the text down */
+    font-size: 2em; /* Adjust this value to increase the text size */
+  }
+
+  .center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust this value as needed */
+  }
+  
   svg {
     display: block;
     margin: 0 auto;

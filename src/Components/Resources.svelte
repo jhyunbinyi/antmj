@@ -17,6 +17,10 @@
       <a class="on-end" href="https://svelte.dev/">Svelte</a>
       <span>(Rich Harris)</span>
     </p>
+    <p class="resource-item">
+      <a class="on-end" href="https://github.com/swar/nba_api">NBA</a>
+      <span>(NBA API)</span>
+    </p>
   </div>
 </section>
 

@@ -2,14 +2,7 @@
 </script>
 <section>
   <p class="body-text">
-  If you've been following the NBA playoffs lately, you've likely witnessed
-   the remarkable performance of young Anthony Edwards against the reigning 
-   champions, the Denver Nuggets. Watching Edwards, many of us were reminded 
-   of Michael Jordan's iconic on-court presence—his effortless maneuvers past 
-   defenders, signature fade-away shots, and spectacular dunks. Even Michael 
-   Jordan himself has acknowledged the similarities in their playing styles, 
-   highlighting Edwards' potential to become a prominent figure in the NBA. 
-   Additionally, Edwards bears a striking visual resemblance to Jordan, further fueling the comparisons.
+  If you have been watching the NBA playoffs recently, you likely would have witnessed Anthony Edwards’ monster performances versus the Phoenix Suns and, more importantly, the reigning champions, Denver Nuggets. This led many people across both mainstream media platforms and social media to draw parallels to NBA legend and GOAT contender Michael Jordan. Many saw Edwards and were reminded of MJ’s iconic on-court presence—his effortless maneuvers past defenders, signature fade-away shots, and spectacular dunks. This led us to ask the question: is Anthony Edwards really a potential next Michael Jordan, or is this just an attempt to create hype around the NBA by drawing upon the legacy of perhaps its most influential player? 
   </p>
 </section>
 
