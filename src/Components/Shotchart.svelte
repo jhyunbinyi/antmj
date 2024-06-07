@@ -281,15 +281,15 @@
 <style>
   .center-text {
     text-align: center;
-    padding-top: 20px; /* Adjust this value to move the text down */
-    font-size: 2em; /* Adjust this value to increase the text size */
+    padding-top: 20px;
+    font-size: 2em;
   }
 
   .center-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Adjust this value as needed */
+    height: 100vh;
   }
   
   svg {

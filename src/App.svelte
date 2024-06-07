@@ -2,11 +2,13 @@
   import Meta from "./Meta.svelte";
   import Title from "./Components/Title.svelte";
   import Intro from "./Components/Intro.svelte";
-  import TextAndMathEquations from "./Components/TextAndMathEquations.svelte";
+  import TextOne from "./Components/TextOne.svelte";
   import LineChart from "./Components/LineChart.svelte";
   import Conclusion from "./Components/Conclusion.svelte";
   import Resources from "./Components/Resources.svelte";
   import Shotchart from "./Components/Shotchart.svelte";
+  import TextTwo from "./Components/TextTwo.svelte";
+  import TextThree from "./Components/TextThree.svelte";
 
   import { onMount } from "svelte";
   
@@ -85,8 +87,10 @@
 </div>
 <Title />
 <Intro />
-<TextAndMathEquations />
+<TextOne />
 <Shotchart />
+<TextTwo />
 <LineChart />
+<TextThree />
 <Conclusion />
 <Resources />
