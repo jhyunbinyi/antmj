@@ -30,7 +30,7 @@
   .taskbar {
     position: relative;
     width: 100%;
-    background: url('public/mjdunk.gif') no-repeat center center fixed;
+    background: url('/mjdunk.gif') no-repeat center center fixed;
     background-size: cover;
     color: white;
     display: flex;
