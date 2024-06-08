@@ -13,18 +13,26 @@
   import { onMount } from "svelte";
   
   let text = "Like Father Like Son?";
-  let letters = [];
+  let words = [];
 
   onMount(() => {
-    letters = text.split("");
+    words = text.split(" ").map(word => {
+      if (word.includes("Father")) {
+        return { word, className: "father" };
+      } else if (word.includes("Son")) {
+        return { word, className: "son" };
+      } else {
+        return { word, className: "" };
+      }
+    });
   });
 </script>
 
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
   body {
-    font-family: 'Staatliches', sans-serif;
+    font-family: 'Bebas Neue', sans-serif !important;
   }
 
   .taskbar {
@@ -37,8 +45,8 @@
     justify-content: center;
     align-items: center;
     padding: 360px;
-    font-size: 1.5em;
-    font-family: 'Staatliches', sans-serif;
+    font-size: 1.7em;
+    font-family: 'Bebas Neue', sans-serif; /* Apply font to taskbar */
   }
 
   .taskbar::before {
@@ -49,7 +57,7 @@
     right: 0;
     bottom: 0;
     background: inherit;
-    filter: blur(4px);
+    filter: blur(5px);
     z-index: 1;
   }
 
@@ -57,31 +65,29 @@
     position: relative;
     z-index: 2;
     font-size: 1.6em;
-    font-family: 'Staatliches', sans-serif;
     text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    font-family: 'Bebas Neue', sans-serif; /* Apply font to taskbar paragraph */
   }
 
   .taskbar span {
     display: inline-block;
-    animation: hover 3s ease-in-out infinite;
-    transform: translateX(-2px); /* Offset text horizontally */
+    margin-right: 2px; /* Adjust spacing between characters */
   }
 
-  @keyframes hover {
-    0%, 100% {
-      transform: translateY(0) translateX(-2px); /* Maintain horizontal offset */
-    }
-    50% {
-      transform: translateY(-3px) translateX(-2px); /* Maintain horizontal offset */
-    }
+  .father {
+    color: #CE1141;
+  }
+
+  .son {
+    color: #236192;
   }
 </style>
 
 <Meta />
 <div class="taskbar">
   <p>
-    {#each letters as letter, i}
-      <span style="animation-delay: {i * 0.1}s">{letter}</span>
+    {#each words as { word, className }, index}
+      <span class={className}>{word}</span>{index < words.length - 1 ? ' ' : ''}
     {/each}
   </p>
 </div>
