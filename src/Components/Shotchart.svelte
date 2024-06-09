@@ -253,7 +253,7 @@
     .attr("cx", d => xScaleANT(d.LOC_Y) - width / 2.25)
     .attr("cy", d => yScaleANT(d.LOC_X))
     .attr("r", 5)
-    .style("fill", "#ce1141")
+    .style("fill", "#0c2340")
     .style("opacity", 0.6)
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
@@ -267,31 +267,24 @@
     .attr("cx", d => xScaleMJ(-d.LOC_Y) + width / 2.25)
     .attr("cy", d => yScaleMJ(d.LOC_X))
     .attr("r", 5)
-    .style("fill", "#0c2340")
+    .style("fill", "#ce1141")
     .style("opacity", 0.6)
     .on("mouseover", mouseover)
     .on("mousemove", mousemove)
     .on("mouseleave", mouseleave);
 }
 </script>
-<h2 id="text" class="center-text">Shot Chart</h2>
+
+<h2 style="text-align: center; margin-bottom: 20px;">Ant vs. MJ: Who are they on the Court?</h2>
+<div style="position: relative; width: 940px; margin: 0 auto;">
+  <h3 style="position: absolute; left: 0; top: -22px; margin: 0;">Anthony Edwards</h3>
+  <h3 style="position: absolute; right: 0; top: -22px; margin: 0;">Michael Jordan</h3>
+</div>
+
 <svg id="court" width={width} height={height}></svg>
 <div id="tooltip" class="tooltip"></div>
 
 <style>
-  .center-text {
-    text-align: center;
-    padding-top: 20px;
-    font-size: 2em;
-  }
-
-  .center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
   svg {
     display: block;
     margin: 0 auto;
@@ -302,7 +295,6 @@
     width: auto;
     height: auto;
     padding: 8px;
-    font: 12px sans-serif;
     background: lightsteelblue;
     border: 0px;
     border-radius: 8px;
